@@ -37,3 +37,4 @@ end
 
 dis = CashRegister.new
 dis.add_item('macbook air', 1000)
+dis.apply_discount
