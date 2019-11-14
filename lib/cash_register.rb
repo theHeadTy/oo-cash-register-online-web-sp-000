@@ -16,7 +16,7 @@ class CashRegister
   end
   
   def items
-    @items.uniq
+    @items
   end
 
   def add_item(item, price, quantity = 1)
