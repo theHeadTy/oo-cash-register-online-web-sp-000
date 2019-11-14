@@ -16,7 +16,7 @@ class CashRegister
   end
   
   def items
-    items.to_a
+    @items.to_a
   end
 
   def add_item(item, price, quantity = 1)
