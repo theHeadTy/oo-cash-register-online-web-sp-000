@@ -34,5 +34,3 @@ class CashRegister
     @total -= last
   end
 end
-
-discount = CashRegister.new(0, 20)
