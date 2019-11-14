@@ -36,4 +36,4 @@ class CashRegister
 end
 
 dis = CashRegister.new
-dis.add_item()
+dis.add_item('macbook air', 1000)
