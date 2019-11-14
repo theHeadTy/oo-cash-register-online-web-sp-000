@@ -19,7 +19,6 @@ class CashRegister
     @total += (price * quantity)
     @last = (price * quantity)
     @items << item
-    apply_discount
   end
 
   def apply_discount
@@ -35,3 +34,6 @@ class CashRegister
     @total -= last
   end
 end
+
+dis = CashRegister.new
+dis.add_item()
