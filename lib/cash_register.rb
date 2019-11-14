@@ -34,3 +34,5 @@ class CashRegister
     @total -= last
   end
 end
+
+discount = CashRegister(0, 20)
