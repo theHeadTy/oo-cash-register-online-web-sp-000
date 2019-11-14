@@ -35,4 +35,4 @@ class CashRegister
   end
 end
 
-discount = CashRegister(0, 20)
+discount = CashRegister.new(0, 20)
